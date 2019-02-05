@@ -55,3 +55,11 @@ window.addEventListener('keydown', (event) => {
 window.addEventListener('resize', (event) =>{
             console.log('I am running out of ideas here!!!')	
         })
+
+window.addEventListener('scroll', (event) =>{
+            console.log('We are scrolling down the river...')	
+        })
+
+window.addEventListener('load', (event) => { 
+            alert('WARNING!!! This site is annoying!')
+        })
