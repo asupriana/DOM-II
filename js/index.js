@@ -22,9 +22,15 @@ signUpButton.forEach ( signUp => {
     signUp.addEventListener('mouseenter', e =>{
     e.target.style.backgroundColor = "orange";
     });
+    signUp.addEventListener('mouseenter', e =>{
+        e.target.textContent = "OUCH!";
+        });
     signUp.addEventListener('mouseleave', e =>{
     e.target.style.backgroundColor = "black";
     });
+    signUp.addEventListener('mouseout', e =>{
+        e.target.textContent = "Sign Me up!";
+        });
     signUp.addEventListener('dblclick', e =>{
     window.alert("Thank you for trying, CLICK AGAIN!");
     });
@@ -63,3 +69,5 @@ window.addEventListener('scroll', (event) =>{
 window.addEventListener('load', (event) => { 
             alert('WARNING!!! This site is annoying!')
         })
+
+       
